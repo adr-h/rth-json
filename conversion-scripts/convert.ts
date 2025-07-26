@@ -60,5 +60,10 @@ async function run() {
       'utf-8'
    );
 
+   await fs.writeFile(
+      './public/collections/simplified-hanzi.min.json',
+      JSON.stringify(transformedCharacter, null, 2),
+      'utf-8'
+   );
 }
 run();

@@ -1,8 +1,11 @@
 # Remembering The ... Heisig method JSONs
 
-## What
-- Repo to store some JSON lists of Heisig keywords, right now only for Simplified Hanzi
-- Also has a dead simple script that sets a `getHeisigSimplifiedHanzi` function on the `window`
+## What 
+- `public/collections/simplified-hanzi.json`
+  - JSON list of Heisig keywords for Simplified Hanzi 
+- `public/scripts/getHeisigHanzi.js`
+  - a script that exposes a dead simple `getHeisigSimplifiedHanzi` function on the `window`
+  - script has the entire JSON list bundled in it, for convenience
 
 ## Why
 - Needed a quick way to lookup Heisig keywords for my own personal Anki deck

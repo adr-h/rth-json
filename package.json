@@ -1,0 +1,21 @@
+{
+  "name": "rth-json",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx esbuild public/scripts/getHeisigHanzi.ts --bundle --charset=utf8 --outfile=public/scripts/getHeisigHanzi.js --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "esbuild": "^0.25.8",
+    "tsx": "^4.20.3"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^5.2.5"
+  }
+}

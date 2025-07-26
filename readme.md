@@ -12,6 +12,7 @@
 
 ## What next?
 - Might add a list for Kanzi + Trad Hanzi eventually. Probably not anytime soon.
+- Build a separate JSON list that will include stories (i.e: _not_ to be ripped directly from Heisig's book, but self-produced and/or via LLM)
 
 ## Acknowledgement
 - Original JSON was sourced from https://github.com/jcklie/hanzi-website and transformed using `scripts/convert.ts` to strip fields that I didn't need
